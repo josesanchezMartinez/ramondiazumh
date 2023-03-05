@@ -1,11 +1,6 @@
 CREATE DATABASE soii;
 
-CREATE TABLE public.alumnos (
-	id bigserial NOT NULL,
-	codigo varchar NULL,
-	nombre varchar NULL,
-	apellido varchar NULL
-);
+CREATE TABLE public.alumnos (id bigserial NOT NULL,codigo varchar NULL,nombre varchar NULL,apellido varchar NULL);
 
 -- Column comments
 

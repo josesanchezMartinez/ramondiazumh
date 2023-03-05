@@ -5,7 +5,7 @@ const router : Router = Router();
 
 router.post('/', (req, res) => {
     res.send('Bienvenido al API')
-})
+}) 
 
 router.post('/getallalumnos', getAllAlumnos);
 router.post('/getonealumno/:id', getOneAlumno);
